@@ -23,11 +23,11 @@ const ImageUploader = () => {
     }
   };
 
-  const onError = (err) => {
+  const onError = (err: any) => {
     console.log("Error:", err);
   };
 
-  const onSuccess = (res) => {
+  const onSuccess = (res: any) => {
     console.log("Success", res);
   };
 
